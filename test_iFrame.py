@@ -12,7 +12,7 @@ class iFrameTestCase(unittest.TestCase):
         options = webdriver.ChromeOptions()
         options.add_argument('--no-sandbox')
         options.add_argument('--window-size=1920,1080')
-        #options.add_argument('--headless')
+        options.add_argument('--headless')
         options.add_argument('user-agent=User-Agent: Chrome/89.0.4389.114')
         self.driver = webdriver.Chrome(options=options)
         self.driver.implicitly_wait(15)
