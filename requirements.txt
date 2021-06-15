@@ -1,3 +1,3 @@
 selenium
 requests
-chromedriver-binary
+chromedriver-binary:89.0.4389.23
